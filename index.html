@@ -15,91 +15,91 @@
     <header>
 
         <div>
-
-            <a class="navbar-brand d-none d-md-block" href="#">
-                <img src="./img/logo.png" alt="">
-            </a>
-
-
-
-            <form class="d-none d-md-block" action="">
-                <input type="search" placeholder="Buscar...">
-                <input type="submit" value="Enviar">
-            </form>
-            <nav class="d-none d-md-block nav-custom">
+            <nav class="d-none d-md-flex nav-custom">
                 <ul>
+                    <li><a class="pagina-actual" href="index.html">Inicio</a></li>
                     <li><a href="./pages/electricas.html">Eléctricas</a></li>
                     <li><a href="./pages/acusticas.html">Acústicas</a></li>
                     <li><a href="./pages/accesorios.html">Accesorios</a></li>
                     <li><a href="./pages/nosotros.html">Nosotros</a></li>
                 </ul>
             </nav>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <a class="navbar-brand d-none d-md-block" href="#">
-                <img src="./img/carrito.png" alt="">
-
-            </a>
-        
-
-        <nav class="navbar navbar-expand-md nav-mobile-custom">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand d-md-none" href="#">
-                    <img src="./img/logo.png" alt="">
-                </a>
-                <a class="navbar-brand d-md-none" href="#">
-                    <img src="./img/carrito.png" alt="">
-
-                </a>
-
-            </div>
-        </nav>
-        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="bg-dark p-4">
-                <nav>
-                    <ul>
-                        <li><a href="electricas.html">Eléctricas</a></li>
-                        <li><a href="acusticas.html">Acústicas</a></li>
-                        <li><a href="accesorios.html">Accesorios</a></li>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                    </ul>
-                </nav>
+            <div class="collapse nav-custom-mobile" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <ul>
+                    <li><a class="pagina-actual" href="index.html">Inicio</a></li>
+                    <li><a href="./pages/electricas.html">Eléctricas</a></li>
+                    <li><a href="./pages/acusticas.html">Acústicas</a></li>
+                    <li><a href="./pages/accesorios.html">Accesorios</a></li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-
     </header>
 
     <main>
-        <div class="image-container2">
-            <img src="./img/esgibson.png" alt="Imagen 1">
-            <img src="./img/gibson-funda-premium-dreadnought-black-p-36433.jpg" alt="Imagen 2">
-            <img src="./img/cable.jpg" alt="Imagen 3">
-            <img src="./img/0a0c5aa-puas_estilizados.webp" alt="Imagen 4">
-          </div>
+
+        <div class="store-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="store">
+                        <img src="./img/tienda-interior.avif" alt="Bienvenidos">
+                        <p> Bienvenido a GuitarStore: Un Mundo de Música desde 1998
+
+                            En GuitarStore, nuestra pasión por la música y las guitarras nos ha llevado a ofrecerte una
+                            experiencia excepcional desde 1998. Somos una tienda dedicada a los amantes de la música y
+                            los apasionados de las guitarras, donde encontrarás todo lo que necesitas para dar vida a
+                            tus melodías y acordes favoritos.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="store">
+                        <img src="./img/tienda-interior2.avif" alt="Seleccion de guitarras">
+                        <p>Descubre Nuestra Selección de Guitarras de Alta Gama
+
+                            En GuitarStore, nos enorgullecemos de ofrecer una exclusiva selección de guitarras de alta
+                            gama para aquellos músicos que buscan el máximo rendimiento y calidad en cada nota. Nuestra
+                            colección presenta modelos cuidadosamente seleccionados de las marcas más prestigiosas,
+                            diseñadas para inspirar y elevar tu música a nuevos niveles.</p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="store">
+                        <img src="./img/tienda-interior3.avif" alt="Bienvenidos">
+                        <p>Envíos a Todo el País: Tu Música al Alcance de Tus Manos
+
+                            En GuitarStore, queremos que la música llegue a cada rincón del país. Por eso, nos
+                            enorgullecemos de ofrecer envíos rápidos y seguros a todas las regiones, para que puedas
+                            recibir tu guitarra o accesorios en la puerta de tu casa. Sin importar dónde te encuentres,
+                            nuestra misión es que la magia de la música esté al alcance de tus manos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
-
-
-
-
-    <section>
-
-    </section>
-
-    <main>
-
-    </main>
-
-    <footer id="pie" class="pie"></footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
 
 </body>
+
+<footer class="footer">
+    <div class="footer-content">
+
+        <p>&copy; Desde 1998. GUITAR STORE</p>
+        <p class="left-text">Contactanos +598 97 666 555</p>
+        <p class="left-text2">Nos encontramos en Av.italia 2043</p>
+        <p class="right-text">Seguinos @guitarstore</p>
+        <img class="right-image" src="./img/redes-sociales-logos.png" alt="Imagen-footer">
+
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
 </html>
